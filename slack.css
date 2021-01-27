@@ -74,19 +74,23 @@ nav > div {
 
 .btn1 {
   background: white;
+  outline: none;
+  cursor: pointer;
 }
 
 .btn1:hover {
   background: lightgrey;
-  color:red;
+  color: red;
 }
-.btn2{
-    color: white;
-     background: green
+.btn2 {
+  color: white;
+  background: green;
+  outline: none;
+  cursor: pointer;
 }
-.btn2:hover{
-    background-color: yellow;
-    color: red;
+.btn2:hover {
+  background-color: yellow;
+  color: red;
 }
 .main-note {
   height: 250px;
@@ -192,8 +196,11 @@ nav > div {
   background-color: #4d8bd9;
   transform: translateY(-3px);
   box-shadow: 0 5px 20px rgb(0 0 0);
+  outline: none;
+  cursor: pointer;
 }
 .send:hover {
+    
   background-color: antiquewhite;
   color: red;
 }
